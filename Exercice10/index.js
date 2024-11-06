@@ -1,3 +1,15 @@
 //votre code ici
+function printNumbers (n) {
 
-export default printNumbers
+
+    let resultat = ""
+
+    for ( i = 1; i <= n; i ++ ) {
+        resultat += " " + i 
+    }
+
+    return resultat
+}
+
+console.log(printNumbers(5));
+

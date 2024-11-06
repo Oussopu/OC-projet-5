@@ -1,3 +1,6 @@
 //Votre code ici
+function add ( a, b) {
+    return a + b
+}
 
- export default add;
+console.log(add (8.6, 5))
